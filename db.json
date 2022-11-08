@@ -35,6 +35,15 @@
       "mobile": "9876756747",
       "passw": "Simran@12345",
       "id": 4
+    },
+    {
+      "name": "Amit",
+      "email": "Amit@gmail.com",
+      "address": "Mumbai, India",
+      "account": "86869879",
+      "mobile": "8787575798",
+      "passw": "Amit@12345",
+      "id": 5
     }
   ]
 }
