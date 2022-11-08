@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(219, 226, 226);
+}
+
+.row{
+    background-color: white;         
+    border-radius: 20px;
+}
+
+img{
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+}
+
+.btn1{
+
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;    
+}
+
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+
+.wrapper{
+    border-top: 3px solid blue;
+}
+
+.userStyle{
+
+    background-image: url("https://source.unsplash.com/1600x900/?city");
+}
+
+.natwestlogo{
+
+    height: 12vh;
+    width: 15vh;
+}
+
+.usermenucolor{
+    color: white !important;
+}
+
+.usermenucolor a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.carosuel1{
+
+    height: 65vh;
+    border-radius: 0em;
+}
+
+h5{
+    color: black;
+}
+
+.card-text{
+    color: black;
+    text-align: center;
+}
+.card-body{
+    background-color: rgb(219, 226, 226) 
+}
