@@ -1,26 +1,22 @@
 {
-  "StudentData": [
+  "BankData": [
     {
-      "fname": "Lalit",
-      "lname": "Sharma",
-      "username": "Sharmld",
-      "address": "HGUKGFU sehglirghlrjhl ljrglrsdjg .dgjsodj",
-      "rollnumber": "12345",
-      "email": "Sharmld@rbos.co.uk",
-      "mobile": "9789645798",
-      "passw": "Lalit@12345",
-      "id": 1
+      "name": "Gunjan",
+      "email": "Gunjan@gmail.com",
+      "address": "London UK",
+      "account": "59907875",
+      "mobile": "9867896785",
+      "passw": "Gunjan@1234",
+      "id": 8
     },
     {
-      "fname": "Dipin",
-      "lname": "Sahni",
-      "username": "Sahnid",
-      "address": "Abcd efgh ijkl mnop qrstuv wxyz",
-      "rollnumber": "356",
-      "email": "dipin@gmail.com",
-      "mobile": "9678543216",
-      "passw": "Dipin@1234",
-      "id": 2
-    }
+      "name": "Vipin",
+      "email": "Babu@gmail.com",
+      "address": "Ghaziabad",
+      "account": "67539395",
+      "mobile": "9875336796",
+      "passw": "Vipin@12345",
+      "id": 9
+    }    
   ]
 }

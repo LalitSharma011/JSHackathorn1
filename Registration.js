@@ -2,24 +2,24 @@ let form = document.getElementById('form')
 form.addEventListener('submit', function(e){
 //auto submission of form
     e.preventDefault()
-    let fname = document.getElementById('FName').value
-    let lname = document.getElementById('LName').value
-    let username = document.getElementById('UName').value
-    let address = document.getElementById('Address').value
-    let rollnumber = document.getElementById('Roll').value
-    let email = document.getElementById('uEmail').value
-    let mobile = document.getElementById('uContact').value
-    let passw = document.getElementById('uPass1').value
+    let name = document.getElementById('name').value
+    let email = document.getElementById('email').value
+    let address = document.getElementById('address').value
+    let account = document.getElementById('account').value
+    let mobile = document.getElementById('mobile').value
+    let passw = document.getElementById('passw').value
+      
+    
+    
+    
     //fetch post request
-    fetch("http://localhost:3000/StudentData",{
+    fetch("http://localhost:3004/StudentData",{
             method:'POST',
             body:JSON.stringify({
-            fname:fname,
-            lname:lname,
-            username:username,
-            address: address,
-            rollnumber:rollnumber,
+            name:name,
             email:email,
+            address: address,
+            account:account,
             mobile:mobile,
             passw:passw
 
@@ -34,8 +34,7 @@ form.addEventListener('submit', function(e){
     .then(function(data){
         console.log(data)
         var results = document.getElementById('results')
-        results.innerHTML = `<p> The title of the to do is ${data.title}</P>
-        <p>The body of the to do is ${data.body}</p>`
+        alert("Record added successfully");
     })
 })
 

@@ -3,19 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
-    background: rgb(219, 226, 226);
+
+     background-color: rgb(219, 226, 226);
 }
 
-.row{
-    background-color: white;         
+.img1{
+
     border-radius: 20px;
-}
-
-img{
-    border-top-left-radius: 30px ;
-    border-bottom-left-radius: 30px ;
+    height: 60vh;
 }
 
 .btn1{
@@ -23,11 +19,12 @@ img{
     border: none;
     outline: none;
     height: 50px;
-    width: 100%;
+    width: 50%;
     background-color: black;
     color: white;
     border-radius: 4px;
     font-weight: bold;    
+
 }
 
 .btn1:hover{
@@ -76,4 +73,80 @@ h5{
 }
 .card-body{
     background-color: rgb(219, 226, 226) 
+}
+.contact1{
+     height: 70vh;
+}
+
+footer{
+    background: #561F70;
+    height: auto;
+    width: 100%;
+    font-family:monospace;
+    columns: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: white;
+}
+.footer-content p{
+
+    max-width: 50%;
+    /* margin: 10px auto; */
+    /* line-height: 8px; */
+    font-size: 14px;
+    color: white;
+}
+.socials{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.socials li{
+
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color:white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background-color:gray;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+}
+.footer-bottom span{
+
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
