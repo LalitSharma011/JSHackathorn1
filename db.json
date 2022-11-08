@@ -7,7 +7,7 @@
       "account": "59907875",
       "mobile": "9867896785",
       "passw": "Gunjan@1234",
-      "id": 8
+      "id": 1
     },
     {
       "name": "Vipin",
@@ -16,7 +16,25 @@
       "account": "67539395",
       "mobile": "9875336796",
       "passw": "Vipin@12345",
-      "id": 9
-    }    
+      "id": 2
+    },
+    {
+      "name": "Puneet",
+      "email": "puneet@gmail.com",
+      "address": "1234 New York, America",
+      "account": "79868746",
+      "mobile": "9786754646",
+      "passw": "Puneet@12345",
+      "id": 3
+    },
+    {
+      "name": "Simran",
+      "email": "Simran@gmail.com",
+      "address": "Delhi, India",
+      "account": "76779709",
+      "mobile": "9876756747",
+      "passw": "Simran@12345",
+      "id": 4
+    }
   ]
 }
