@@ -95,38 +95,37 @@ form.addEventListener('submit', function(e){
 
 // login validation
 
-let btnLogin = document.getElementById("loginSubmitButton");
-btnLogin.onclick = login;
-
-// var currentUser = 0;
-
 function login() {
-    console.log("login");
-    let email = document.getElementById("userEmail").value;
-    let password = document.getElementById("userPassword").value;
-    if (email === "") {
-        alert("Please enter your email id field and try again");
-    }
-    else if (password === "") {
-        alert("password missing");
 
-    }
-    else {
+  let btnLogin = document.getElementById("loginSubmitButton");
+  btnLogin.onclick = login;
 
-        fetch(`http://localhost:3004/BankData?email=${email}`)
-           .then(res=>res.json())
-           .then(data=>{
-            console.log(data);
-            if(data.length===0){
-                alert("Email address does not exist")
-            }
-            if(data[0].passw===password){
-                console.log("Success");
-                return true;
-            }
-            else{
-                alert("Incorrect Password")
-            }
-           })           
-    }
+  console.log("login");
+  let email = document.getElementById("userEmail").value;
+  let password = document.getElementById("userPassword").value;
+  if (email === "") {
+    alert("Please enter your email id field and try again");
+  }
+  else if (password === "") {
+    alert("password missing");
+  }
+  else {
+    fetch(`http://localhost:3004/BankData?email=${email}`)
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+        if (data.length === 0) {
+          alert("Email address does not exist")
+        }
+        if (data[0].passw === password) {
+          console.log("Success");
+          alert("login successful");
+          return true;
+        }
+        else {
+          alert("Incorrect Password")
+          return false;          
+        }
+      })
+  }
 }

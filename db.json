@@ -44,6 +44,15 @@
       "mobile": "8787575798",
       "passw": "Amit@12345",
       "id": 5
+    },
+    {
+      "name": "Seema",
+      "email": "Seema@gmail.com",
+      "address": "Ghaziabad, India",
+      "account": "45678902",
+      "mobile": "9876543000",
+      "passw": "Seema@123456",
+      "id": 6
     }
   ]
 }
