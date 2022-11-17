@@ -1,58 +1,22 @@
 {
   "BankData": [
     {
-      "name": "Gunjan",
-      "email": "Gunjan@gmail.com",
-      "address": "London UK",
-      "account": "59907875",
-      "mobile": "9867896785",
-      "passw": "Gunjan@1234",
+      "uname": "Lalit",
+      "email": "Lalit@gmail.com",
+      "address": "Delhi India",
+      "accnumber": "86556547",
+      "mobile": "9876446786",
+      "newPassword": "Lalit@1234",
       "id": 1
     },
     {
-      "name": "Vipin",
-      "email": "Babu@gmail.com",
-      "address": "Ghaziabad",
-      "account": "67539395",
-      "mobile": "9875336796",
-      "passw": "Vipin@12345",
+      "uname": "Dev",
+      "email": "Dev@gmail.com",
+      "address": "Delhi India",
+      "accnumber": "78968757",
+      "mobile": "9896874567",
+      "newPassword": "Dev@1234",
       "id": 2
-    },
-    {
-      "name": "Puneet",
-      "email": "puneet@gmail.com",
-      "address": "1234 New York, America",
-      "account": "79868746",
-      "mobile": "9786754646",
-      "passw": "Puneet@12345",
-      "id": 3
-    },
-    {
-      "name": "Simran",
-      "email": "Simran@gmail.com",
-      "address": "Delhi, India",
-      "account": "76779709",
-      "mobile": "9876756747",
-      "passw": "Simran@12345",
-      "id": 4
-    },
-    {
-      "name": "Amit",
-      "email": "Amit@gmail.com",
-      "address": "Mumbai, India",
-      "account": "86869879",
-      "mobile": "8787575798",
-      "passw": "Amit@12345",
-      "id": 5
-    },
-    {
-      "name": "Seema",
-      "email": "Seema@gmail.com",
-      "address": "Ghaziabad, India",
-      "account": "45678902",
-      "mobile": "9876543000",
-      "passw": "Seema@123456",
-      "id": 6
     }
   ]
 }
